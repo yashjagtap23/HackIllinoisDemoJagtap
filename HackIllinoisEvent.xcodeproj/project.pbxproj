@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BB5732A22C9A66BC0040E2BB /* HackIllinoisEventApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732A12C9A66BC0040E2BB /* HackIllinoisEventApp.swift */; };
-		BB5732A42C9A66BC0040E2BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732A32C9A66BC0040E2BB /* ContentView.swift */; };
 		BB5732A62C9A66BE0040E2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5732A52C9A66BE0040E2BB /* Assets.xcassets */; };
 		BB5732A92C9A66BE0040E2BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5732A82C9A66BE0040E2BB /* Preview Assets.xcassets */; };
 		BB5732B32C9A66BE0040E2BB /* HackIllinoisEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732B22C9A66BE0040E2BB /* HackIllinoisEventTests.swift */; };
 		BB5732BD2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732BC2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift */; };
 		BB5732BF2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732BE2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift */; };
+		BB5732CC2C9A66D90040E2BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732CB2C9A66D90040E2BB /* ContentView.swift */; };
+		BB5732CE2C9A66E00040E2BB /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732CD2C9A66E00040E2BB /* Event.swift */; };
+		BB5732D02C9A66E90040E2BB /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732CF2C9A66E90040E2BB /* EventListView.swift */; };
+		BB5732D22C9A66F10040E2BB /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732D12C9A66F10040E2BB /* EventDetailView.swift */; };
+		BB5732D42C9A67000040E2BB /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732D32C9A67000040E2BB /* FavoritesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		BB57329E2C9A66BC0040E2BB /* HackIllinoisEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackIllinoisEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5732A12C9A66BC0040E2BB /* HackIllinoisEventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinoisEventApp.swift; sourceTree = "<group>"; };
-		BB5732A32C9A66BC0040E2BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB5732A52C9A66BE0040E2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB5732A82C9A66BE0040E2BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB5732AE2C9A66BE0040E2BB /* HackIllinoisEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackIllinoisEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		BB5732B82C9A66BF0040E2BB /* HackIllinoisEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackIllinoisEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5732BC2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinoisEventUITests.swift; sourceTree = "<group>"; };
 		BB5732BE2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinoisEventUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB5732CB2C9A66D90040E2BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB5732CD2C9A66E00040E2BB /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BB5732CF2C9A66E90040E2BB /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		BB5732D12C9A66F10040E2BB /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		BB5732D32C9A67000040E2BB /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				BB5732A12C9A66BC0040E2BB /* HackIllinoisEventApp.swift */,
-				BB5732A32C9A66BC0040E2BB /* ContentView.swift */,
+				BB5732CB2C9A66D90040E2BB /* ContentView.swift */,
+				BB5732CD2C9A66E00040E2BB /* Event.swift */,
+				BB5732CF2C9A66E90040E2BB /* EventListView.swift */,
+				BB5732D12C9A66F10040E2BB /* EventDetailView.swift */,
+				BB5732D32C9A67000040E2BB /* FavoritesManager.swift */,
 				BB5732A52C9A66BE0040E2BB /* Assets.xcassets */,
 				BB5732A72C9A66BE0040E2BB /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB5732A42C9A66BC0040E2BB /* ContentView.swift in Sources */,
+				BB5732CC2C9A66D90040E2BB /* ContentView.swift in Sources */,
+				BB5732D42C9A67000040E2BB /* FavoritesManager.swift in Sources */,
+				BB5732D22C9A66F10040E2BB /* EventDetailView.swift in Sources */,
+				BB5732CE2C9A66E00040E2BB /* Event.swift in Sources */,
 				BB5732A22C9A66BC0040E2BB /* HackIllinoisEventApp.swift in Sources */,
+				BB5732D02C9A66E90040E2BB /* EventListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
