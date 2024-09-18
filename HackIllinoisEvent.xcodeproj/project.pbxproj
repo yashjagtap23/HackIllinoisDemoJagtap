@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5732A22C9A66BC0040E2BB /* HackIllinoisEventApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732A12C9A66BC0040E2BB /* HackIllinoisEventApp.swift */; };
+		BB5732A42C9A66BC0040E2BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732A32C9A66BC0040E2BB /* ContentView.swift */; };
+		BB5732A62C9A66BE0040E2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5732A52C9A66BE0040E2BB /* Assets.xcassets */; };
+		BB5732A92C9A66BE0040E2BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5732A82C9A66BE0040E2BB /* Preview Assets.xcassets */; };
+		BB5732B32C9A66BE0040E2BB /* HackIllinoisEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732B22C9A66BE0040E2BB /* HackIllinoisEventTests.swift */; };
+		BB5732BD2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732BC2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift */; };
+		BB5732BF2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5732BE2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB5732AF2C9A66BE0040E2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5732962C9A66BC0040E2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB57329D2C9A66BC0040E2BB;
+			remoteInfo = HackIllinoisEvent;
+		};
+		BB5732B92C9A66BF0040E2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5732962C9A66BC0040E2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB57329D2C9A66BC0040E2BB;
+			remoteInfo = HackIllinoisEvent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB57329E2C9A66BC0040E2BB /* HackIllinoisEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackIllinoisEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5732A12C9A66BC0040E2BB /* HackIllinoisEventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinoisEventApp.swift; sourceTree = "<group>"; };
+		BB5732A32C9A66BC0040E2BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB5732A52C9A66BE0040E2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5732A82C9A66BE0040E2BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB5732AE2C9A66BE0040E2BB /* HackIllinoisEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackIllinoisEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5732B22C9A66BE0040E2BB /* HackIllinoisEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinoisEventTests.swift; sourceTree = "<group>"; };
+		BB5732B82C9A66BF0040E2BB /* HackIllinoisEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackIllinoisEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5732BC2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinoisEventUITests.swift; sourceTree = "<group>"; };
+		BB5732BE2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinoisEventUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB57329B2C9A66BC0040E2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5732AB2C9A66BE0040E2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5732B52C9A66BF0040E2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5732952C9A66BC0040E2BB = {
+			isa = PBXGroup;
+			children = (
+				BB5732A02C9A66BC0040E2BB /* HackIllinoisEvent */,
+				BB5732B12C9A66BE0040E2BB /* HackIllinoisEventTests */,
+				BB5732BB2C9A66BF0040E2BB /* HackIllinoisEventUITests */,
+				BB57329F2C9A66BC0040E2BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB57329F2C9A66BC0040E2BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB57329E2C9A66BC0040E2BB /* HackIllinoisEvent.app */,
+				BB5732AE2C9A66BE0040E2BB /* HackIllinoisEventTests.xctest */,
+				BB5732B82C9A66BF0040E2BB /* HackIllinoisEventUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5732A02C9A66BC0040E2BB /* HackIllinoisEvent */ = {
+			isa = PBXGroup;
+			children = (
+				BB5732A12C9A66BC0040E2BB /* HackIllinoisEventApp.swift */,
+				BB5732A32C9A66BC0040E2BB /* ContentView.swift */,
+				BB5732A52C9A66BE0040E2BB /* Assets.xcassets */,
+				BB5732A72C9A66BE0040E2BB /* Preview Content */,
+			);
+			path = HackIllinoisEvent;
+			sourceTree = "<group>";
+		};
+		BB5732A72C9A66BE0040E2BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB5732A82C9A66BE0040E2BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB5732B12C9A66BE0040E2BB /* HackIllinoisEventTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5732B22C9A66BE0040E2BB /* HackIllinoisEventTests.swift */,
+			);
+			path = HackIllinoisEventTests;
+			sourceTree = "<group>";
+		};
+		BB5732BB2C9A66BF0040E2BB /* HackIllinoisEventUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5732BC2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift */,
+				BB5732BE2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift */,
+			);
+			path = HackIllinoisEventUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB57329D2C9A66BC0040E2BB /* HackIllinoisEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5732C22C9A66BF0040E2BB /* Build configuration list for PBXNativeTarget "HackIllinoisEvent" */;
+			buildPhases = (
+				BB57329A2C9A66BC0040E2BB /* Sources */,
+				BB57329B2C9A66BC0040E2BB /* Frameworks */,
+				BB57329C2C9A66BC0040E2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackIllinoisEvent;
+			productName = HackIllinoisEvent;
+			productReference = BB57329E2C9A66BC0040E2BB /* HackIllinoisEvent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5732AD2C9A66BE0040E2BB /* HackIllinoisEventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5732C52C9A66BF0040E2BB /* Build configuration list for PBXNativeTarget "HackIllinoisEventTests" */;
+			buildPhases = (
+				BB5732AA2C9A66BE0040E2BB /* Sources */,
+				BB5732AB2C9A66BE0040E2BB /* Frameworks */,
+				BB5732AC2C9A66BE0040E2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5732B02C9A66BE0040E2BB /* PBXTargetDependency */,
+			);
+			name = HackIllinoisEventTests;
+			productName = HackIllinoisEventTests;
+			productReference = BB5732AE2C9A66BE0040E2BB /* HackIllinoisEventTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB5732B72C9A66BF0040E2BB /* HackIllinoisEventUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5732C82C9A66BF0040E2BB /* Build configuration list for PBXNativeTarget "HackIllinoisEventUITests" */;
+			buildPhases = (
+				BB5732B42C9A66BF0040E2BB /* Sources */,
+				BB5732B52C9A66BF0040E2BB /* Frameworks */,
+				BB5732B62C9A66BF0040E2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5732BA2C9A66BF0040E2BB /* PBXTargetDependency */,
+			);
+			name = HackIllinoisEventUITests;
+			productName = HackIllinoisEventUITests;
+			productReference = BB5732B82C9A66BF0040E2BB /* HackIllinoisEventUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5732962C9A66BC0040E2BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BB57329D2C9A66BC0040E2BB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BB5732AD2C9A66BE0040E2BB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BB57329D2C9A66BC0040E2BB;
+					};
+					BB5732B72C9A66BF0040E2BB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BB57329D2C9A66BC0040E2BB;
+					};
+				};
+			};
+			buildConfigurationList = BB5732992C9A66BC0040E2BB /* Build configuration list for PBXProject "HackIllinoisEvent" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5732952C9A66BC0040E2BB;
+			productRefGroup = BB57329F2C9A66BC0040E2BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB57329D2C9A66BC0040E2BB /* HackIllinoisEvent */,
+				BB5732AD2C9A66BE0040E2BB /* HackIllinoisEventTests */,
+				BB5732B72C9A66BF0040E2BB /* HackIllinoisEventUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB57329C2C9A66BC0040E2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5732A92C9A66BE0040E2BB /* Preview Assets.xcassets in Resources */,
+				BB5732A62C9A66BE0040E2BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5732AC2C9A66BE0040E2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5732B62C9A66BF0040E2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB57329A2C9A66BC0040E2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5732A42C9A66BC0040E2BB /* ContentView.swift in Sources */,
+				BB5732A22C9A66BC0040E2BB /* HackIllinoisEventApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5732AA2C9A66BE0040E2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5732B32C9A66BE0040E2BB /* HackIllinoisEventTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5732B42C9A66BF0040E2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5732BD2C9A66BF0040E2BB /* HackIllinoisEventUITests.swift in Sources */,
+				BB5732BF2C9A66BF0040E2BB /* HackIllinoisEventUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB5732B02C9A66BE0040E2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB57329D2C9A66BC0040E2BB /* HackIllinoisEvent */;
+			targetProxy = BB5732AF2C9A66BE0040E2BB /* PBXContainerItemProxy */;
+		};
+		BB5732BA2C9A66BF0040E2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB57329D2C9A66BC0040E2BB /* HackIllinoisEvent */;
+			targetProxy = BB5732B92C9A66BF0040E2BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB5732C02C9A66BF0040E2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5732C12C9A66BF0040E2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5732C32C9A66BF0040E2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackIllinoisEvent/Preview Content\"";
+				DEVELOPMENT_TEAM = 4T4LCYB538;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yashJagtap.HackIllinoisEvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB5732C42C9A66BF0040E2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackIllinoisEvent/Preview Content\"";
+				DEVELOPMENT_TEAM = 4T4LCYB538;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yashJagtap.HackIllinoisEvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB5732C62C9A66BF0040E2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T4LCYB538;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yashJagtap.HackIllinoisEventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackIllinoisEvent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackIllinoisEvent";
+			};
+			name = Debug;
+		};
+		BB5732C72C9A66BF0040E2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T4LCYB538;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yashJagtap.HackIllinoisEventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackIllinoisEvent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackIllinoisEvent";
+			};
+			name = Release;
+		};
+		BB5732C92C9A66BF0040E2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T4LCYB538;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yashJagtap.HackIllinoisEventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackIllinoisEvent;
+			};
+			name = Debug;
+		};
+		BB5732CA2C9A66BF0040E2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T4LCYB538;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yashJagtap.HackIllinoisEventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackIllinoisEvent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5732992C9A66BC0040E2BB /* Build configuration list for PBXProject "HackIllinoisEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5732C02C9A66BF0040E2BB /* Debug */,
+				BB5732C12C9A66BF0040E2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5732C22C9A66BF0040E2BB /* Build configuration list for PBXNativeTarget "HackIllinoisEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5732C32C9A66BF0040E2BB /* Debug */,
+				BB5732C42C9A66BF0040E2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5732C52C9A66BF0040E2BB /* Build configuration list for PBXNativeTarget "HackIllinoisEventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5732C62C9A66BF0040E2BB /* Debug */,
+				BB5732C72C9A66BF0040E2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5732C82C9A66BF0040E2BB /* Build configuration list for PBXNativeTarget "HackIllinoisEventUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5732C92C9A66BF0040E2BB /* Debug */,
+				BB5732CA2C9A66BF0040E2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB5732962C9A66BC0040E2BB /* Project object */;
+}
